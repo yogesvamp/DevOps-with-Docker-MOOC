@@ -1,0 +1,11 @@
+# start docker
+docker run devopsdockeruh/exec_bash_exercise
+
+# into the container
+docker exec -it 7208258325ac bash
+
+# read logs.txt
+tail -f ./logs.txt
+
+#result 
+"Docker is easy"
